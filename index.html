@@ -3,24 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Dayspace</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="intro gradient">
 		<div class="logo"><img src="img/logow.png" alt="Dayspace"></div>
-		<div class="orbits"></div>
+		<div class="orbits">
+			<img src="img/orbit-10.png" alt="Dayspace Orbit">
+			<img src="img/orbit-11.png" alt="Dayspace Orbit">
+			<img src="img/orbit-12.png" alt="Dayspace Orbit">
+		</div>
 		<div class="intro-header">
 			<div class="cont-50 big-icon">
 				<img src="img/icon-09.png" alt="Dayspace Icon">
 			</div>
 			<div class="phrase">
 				<h1 style="text-align: right;">Your Day,<br>Your Space</h1>
-				<div class="std-btn">Get Started</div>
+				<a href="#desc" style="color: #fff;" data-scroll><div class="std-btn">Get Started</div></a>
 			</div>
 		</div>
 	</div>
-	<div class="description">
+	<div class="description" id="desc">
 		<h2>Find a Time for Everything</h2>
 		<div class="mocks">
 			<img src="img/mock2.png" alt="Dayspace Image">
@@ -46,7 +51,7 @@
 		<img src="img/logo.png" alt="Dayspace Logo">
 	</div>
 	<div class="form gradient">
-		<div class="" style="width: 30%; display: flex; justify-content: center; align-items: center;"><img src="img/mock1.png" alt="Dayspace Image"></div>
+		<div class="mock-form" style="width: 30%; display: flex; justify-content: center; align-items: center;"><img src="img/mock1.png" alt="Dayspace Image"></div>
 		<div class="form-structure">
 			<h1 style="margin-top:0; color:#fff;">Ready to Start?</h1>
 			<p style="max-width: 500px;">Leave us your email and we will let you know the news from Dayspace as soon as the sun rises.</p>
@@ -69,6 +74,10 @@
 			<a href="">Privacy</a>
 		</div>
 	</div>
+
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 </body>
+<script src="js/smooth-scroll.js"></script>
 <script src="js/script.js"></script>
+
 </html>
